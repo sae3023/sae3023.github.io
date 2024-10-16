@@ -1,1 +1,174 @@
-clown + unstable
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Serhii Lekariev CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <style>
+        a {
+    color: #0077aa;
+}
+
+.previous-workplace {
+    padding-bottom: 20px;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    color: #454545;
+}
+
+.previous-workplace {
+    line-height: 1.5;
+}
+
+.name {
+      margin: auto;
+      width: 50%;
+      padding: 10px;
+}
+
+.contacts {
+    font-weight: bold;
+}
+
+.previous-workplaces {
+    font-weight: bold;
+}
+
+.competencies {
+    font-weight: bold;
+}
+
+.previous-workplaces.previous-workplace.company {
+    color: red;
+}
+    
+    </style>
+</head>
+<body>
+<h1 class="name">Serhii Lekariev</h1>
+<h2>Contacts</h2>
+<div class="contacts">
+    <ul>
+        <li>Email: <a href="mailto:serhii.lekariev@gmail.com">serhii.lekariev@gmail.com</a></li>
+        <li><a href="https://t.me/saeryan">Telegram</a></li>
+    </ul>
+</div>
+<h2>Competencies</h2>
+<div class="competencies">
+    Those are the languages that I have professional experience using along their respective ecosystems:
+    <ul>
+        <li>Java;</li>
+        <li>Scala;</li>
+        <li>Kotlin;</li>
+        <li>Rust;</li>
+        <li>JavaScript.</li>
+    </ul>
+
+    <p>More professional competencies in the Experience section!</p>
+
+    Those are the technologies that I've dabbled in during my leisure:
+    <ul>
+        <li>Deep learning;</li>
+        <li>Clojure;</li>
+        <li>Elixir;</li>
+        <li>Blockchain;</li>
+        <li>Arduino.</li>
+    </ul>
+</div>
+
+<h2>Experience</h2>
+<div class="previous-workplaces">
+    <ul>
+         <li class="previous-workplace">
+            <div class="company>">Betby</div>
+            <div class="dates">Nov 2021 - Present</div>
+            <div class="description">
+                <p>Nowadays, I'm a technical lead at a team of 5 people. As an individual contributor, I owned several key data ingestion components.</p>
+                <p>As a technical lead, I took responsibility for the architecture of all data provider integrations, wrote backend libraries, and was otherwise heavily involved in making sure our backend doesn't suck.</p>
+                <p>Additionally, I'm teaching functional programming and Scala to OOP Python developers.</p>
+                <p> As for the stack: </p>
+                <ul>
+                    <li>Scala with a functional flavour: fs2, cats, cats-effects;</li>
+                    <li>On-prem k8s clusters;</li>
+                    <li>Data storage is mongo, data streams are rabbit.</li>
+                </ul>
+            </div>
+        </li>
+        <li class="previous-workplace">
+            <div class="company>">Zoolatech</div>
+            <div class="dates">July 2022 - Present</div>
+            <div class="description">
+                <p>Scala engineer in Zoolatech. Worked with a warehousing optimization company.
+                </p>
+                <p>As a backend engineer, worked on integrating with new warehouses, making sure that previous integrations work, improving the codebase, etc.
+                </p>
+                <p>As a part of Zoolatech, was one of the mentors in our students program - Zoola Academy. Wrote lectures, ca,e up with take-home assignments, answer questions, 
+                    review other lectures and otherwise help the students become software engineers.
+                </p>
+                <p> The stack: </p>
+                <ul>
+                    <li>Scala with cats;</li>
+                    <li>GCP;</li>
+                    <li>Postgres for all of our storage and Kafka for all of our message brokering.</li>
+                </ul>
+            </div>
+        </li>
+        
+        <li class="previous-workplace">
+            <div class="company>">An NDA travel company</div>
+            <div class="dates">Feb 2021 - Nov 2021</div>
+            <div class="description">
+                <p>I was a big data engineer for an even bigger travel company. We used a zoo of Big Data technologies,
+                    such as Spark, Hadoop, Hive, Apache Airflow, you name it.
+                </p>
+                <p>I was responsible for creating and supporting data pipelines, enabling the data science team to
+                    access and use the data about our customers.
+                </p>
+                <ul>
+                    <li>We used Java and Scala;</li>
+                    <li>It ran on AWS;</li>
+                    <li>Stored data in NoSQL DBs: Redis, DynamoDB.</li>
+                </ul>
+            </div>
+        </li>
+        <li class="previous-workplace">
+
+            <div class="company>">Sprout Therapy</div>
+            <div class="dates">Aug 2020 - Feb 2021</div>
+            <div class="description">
+                <p>Was a part of a team of Rust engineers building products for doctors and patients in the US.</p>
+                <p>Joined the product in its early stage, and apart from being an individual contributor, helped
+                    facilitate
+                    good engineering practices, conducting code review, onboarding new team members, writing good
+                    tests
+                    and documentation.</p>
+                <ul>
+                    <li>Rust backend (tokio);</li>
+                    <li>Running on AWS.</li>
+                </ul>
+            </div>
+
+        </li>
+        <li class="previous-workplace">
+            <div class="company>">TeamDev</div>
+            <div class="dates">Aug 2018 - Aug 2020</div>
+            <div class="description">Took part in developing the coolest event-sourcing Java framework: <a
+                    href="https://spine.io/">Spine</a>
+
+                <p>Wrote open source-grade code, tests and documentation.</p>
+                <p>Was a part of a development team behind <a href="https://purephotos.app/">purephotos.app</a>.
+                    Developed our front end, developed our backend, helped solve some infrastructural questions.
+                    Wrote PoCs for our CEO, integrated the image pipeline with our ML team.</p>
+                <ul>
+                    <li>Java backend, Vue + TS frontend;</li>
+                    <li>Running on Google Cloud Platform.</li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
